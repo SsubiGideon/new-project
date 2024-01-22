@@ -1,0 +1,489 @@
+.about-us {
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    column-gap: 70px;
+    margin-top: 20px;
+    height: fit-content; 
+}
+
+#house-image {
+    height: 500px;
+    border-radius: 60px;
+}
+
+body {
+    padding:0 30px;
+    font-family:   sans-serif;
+    background-color: white;   
+}
+
+ .menu-icon {
+  display: none;
+ }
+
+ header {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(20230405_123527.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight: 800;
+    font-family: sans-serif;
+    font-size: 30px;  
+    color: white;
+    margin-top: 10px;
+   
+ }
+  header p {
+    color: rgb(248, 10, 10);
+    font-size: 50px;
+    background-color: white;
+    padding: 4px;
+    border-radius: 2px;
+     
+ }
+
+ h1 {
+  font-size:90px ;
+ }
+
+
+  nav {
+    top:3px;
+    height: 50px;
+    background: linear-gradient(to top, rgb(104, 104, 236), rgb(218, 79, 79));
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-right: 30px;
+    gap: 20px;
+    opacity: .8;
+}
+
+ nav a {
+    text-decoration: none;
+    margin-left: 3px;
+    color: white;
+    border-style: solid;
+    padding: 3px;
+    border-radius: 30%;
+    border-width: 2px;
+    font-size: smaller;
+}
+
+  #logo {
+    height:40px;
+    margin-right: 170px;
+    margin-left: 5px;
+  }
+
+  a:hover {
+    color: rgb(228, 178, 117);
+  }
+
+  a:active {
+    color: blueviolet;
+  }
+
+  .about {
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    border-width: 20px;
+    border-radius: 60px;
+    background: linear-gradient(to left, rgb(219, 218, 218), rgb(127, 127, 128));
+    box-shadow: 3px 3px 7px rgba(71, 71, 71, .3);
+  }
+
+  h2 {
+    color: rgb(10, 10, 10);
+    font-weight: 600;
+  }
+
+  .membership {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-top: 30px;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+  }
+ 
+  #membership-img {
+    height: 500px;
+  }
+
+  .membershipcontent {
+    box-shadow: 6px;
+    padding: 20px;
+    font-size: 18px;
+    border-width: .3px;
+    border-radius: 60px;
+    background : linear-gradient(to left, rgb(221, 220, 220), rgb(233, 232, 232));
+    box-shadow: 3px 3px 6px rgba(68, 68, 68, 0.3);
+  }
+
+  .register {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .register{  
+    margin:20px ;
+  }
+
+  .form {
+    background: linear-gradient(to right, blue, red, yellow);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px 100px;
+    box-shadow: 3px 3px 6px rgba(4, 193, 218, .3);
+  }
+
+  label {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color:rgb(2, 2, 2) ;
+  }
+
+  form input {
+    width: 260px;
+    height: 30px;
+    padding: 0px;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+
+  .regimg {
+    padding-left: 60px;
+  }
+
+  h5 {
+    font-size:30px ;
+    background: linear-gradient(to right, rgb(24, 201, 233), rgb(26, 140, 206));
+    margin-top: 2px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+  }
+ 
+   #agreement {
+    width: auto;
+   } 
+  
+   #btn {
+    width: 200px;
+    height: 40px;
+    font-size: 30px;
+    font-weight: 600;
+    background: linear-gradient(to left, red, green, brown, blue); 
+    color: white;
+    border-radius: 5px;
+    border-color:white ;
+    margin-left: 25px;
+   }
+ 
+   .agreement-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+   }
+
+   #investment_experience {
+    display: block;
+   }
+  
+  #btn:hover {
+    cursor: pointer;
+    color: aqua;
+    border-color:aqua ;
+    background: aliceblue;
+  }
+     
+  #btn:active {
+    color: blue;
+    background: rgb(160, 228, 26);
+  }
+  
+  input::placeholder {
+    font-size: 18px;
+  }
+
+  textarea::placeholder {
+    font-size: 18px;
+  }
+
+  textarea {
+    font-size: 18px;
+    padding: 3px;
+    border-color: brown;
+    font-family: sans-serif;
+    width: 260px;
+    resize: none;
+  }
+
+  select {
+    padding: 3px;
+    font-size:18px ;
+    border-radius: 2px;
+  }
+
+  select:hover {
+   cursor: pointer;
+   background: yellowgreen;
+  }
+ 
+  #contact-us {
+    background-color:rgb(255, 251, 251);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px; 
+    column-gap: 20px;
+  }
+
+  h6 {
+    font-size: 40px;
+    font-family: 'Lobster', sans-serif;
+    text-align: center;
+    padding: 4px 5px;
+    margin: 30px 0;
+  }
+
+  .contacts {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: black;
+    row-gap: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 30px;
+  }
+
+  .location  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    column-gap: 2px;
+  }
+
+  .number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 9px;
+    padding-left: 0px;
+    margin-right: 3px;
+    margin-left: 12px;
+  }
+
+  #number:hover {
+    color: rgb(12, 190, 190);
+  }
+
+  #email:hover {
+    color: rgb(12, 190, 190);
+  }
+
+  .email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    column-gap: 9px;
+    margin-left: 12px;
+  }
+
+  footer img {
+    height: 20px;
+  }
+     
+  #location-img {
+    height:40px ;
+  }
+  
+  #last-img {
+    max-width: 700px;
+    height: auto;
+    order: -1;
+   }
+
+   .last-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #last-img:nth-child(2) {
+    order: 1;
+  }
+
+  .contacts:nth-child(1) {
+    order: 2;
+  }
+
+  #location-txt {
+    color: rgb(8, 5, 190);
+    font-size: 20px;
+  }
+
+  #number, #email {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(8, 5, 190);
+  }
+
+  p {
+    margin: 0px;
+  }
+
+  @media screen and (max-width:1150px) {
+    nav a {
+      display: none;
+    }
+
+    .menu-icon {
+      display:block ; 
+    }
+    
+
+    nav {
+      justify-content: space-between;
+    }
+
+    header p {
+      font-size: 30px;
+    }
+
+    h1 {
+      font-size:60px ;
+    }
+
+    #house-image {
+      width: 300px;
+    }
+
+    #membership-img {
+      display: none;
+    }
+
+    .membership {
+      display: flex;
+      justify-content: center;
+    }
+
+    .register {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .form:nth-child(1) {
+      order: 2;
+    }
+  }
+
+  @media screen and (max-width:800px) {
+    header {
+      height:370px ;
+      margin: 0px;
+    }
+
+   #navlinks {
+    height: 100vb;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: none;
+    transition: top 1s ease;
+   }
+
+    h1 {
+      font-size: 40px;
+    } 
+
+    #house-image {
+      display: none;
+    }
+
+    .about-us {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .regimg {
+      width: 200px;
+      height: 200px;
+      padding: 0px;
+    }
+
+    .form {
+      width: 100px;
+      margin-left: 10px;
+      padding: 20px 90px;
+    }
+
+    #contact-us {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contacts {
+      margin: 0;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
